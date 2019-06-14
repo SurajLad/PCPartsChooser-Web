@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>DNS Computers</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="logo.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>  
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base" onload="register()">
+     <main class="mdl-layout__content">
+	 
+		<dialog id="register" class="mdl-dialog">
+				<div class="mdl-dialog__content">
+				<form action="register.php" method="post">
+					<div class="form__article">
+						<h4>New To DNSComputers ? Register Now ! </h4>
+							<div class="mdl-grid">
+								<div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="text" id="firstName" value="" name="name"/>
+									<label class="mdl-textfield__label" for="firstName">Name</label>
+								</div>
+								 <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+									<input class="mdl-textfield__input" type="text" id="email" name="email1">
+									<label class="mdl-textfield__label" for="email">Email ID</label>
+								</div>
+							</div>
+							<div class="mdl-grid">
+								<div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="password" id="password" value="" name="pass1"/>
+									<label class="mdl-textfield__label" for="password">Password</label>
+								</div>
+								<div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="password" id="Rpassword" value=""/>
+									<label class="mdl-textfield__label" for="Rpassword">ReEnter Password</label>
+								</div>
+							</div>
+						<button type="submit" onclick="" id="register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" value="Submit">Register</button>
+						</div>
+						</form>
+						<form action="login.php" method="post">
+						<div class="form__article">
+						<h4>Already User ? Login Now !</h4>
+							<div class="mdl-grid">
+								<div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="text" id="username" name="email" value=""/>
+									<label class="mdl-textfield__label" for="username">Username/Email ID</label>
+								</div>
+								<div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input" type="password" id="password" name="pass" value=""/>
+									<label class="mdl-textfield__label" for="password">Password</label>
+								</div>
+							</div>
+						<center><button type="submit" onclick="" id="login" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" name="login">Login</button>
+					<button type="button" onclick="parent.location='Home.php'" class="mdl-button close">Cancel</button>
+					</center>
+					</div>
+					</form>
+				</div>
+		</dialog>
+      </main>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+    <script src="PCTool.js"></script>
+</html>
