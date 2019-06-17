@@ -11,6 +11,21 @@ Functionality :-
 > Models for Component selection
 > PDF Generation is Possible
 
+Screenshots:-
+
+<img src="Screenshots/Screenshot (7).png">
+
+<img src="Screenshots/Screenshot (10).png">
+
+<img src="Screenshots/Screenshot (11).png">
+
+<img src="Screenshots/Screenshot (12).png">
+
+<img src="Screenshots/Screenshot (13).png">
+
+<img src="Screenshots/Screenshot (14).png">
+
+
 Credits/Thanks To;-
 getmdl.io
 nzxt images for buildpc page
